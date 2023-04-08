@@ -1,0 +1,176 @@
+* {
+  font-family: 微軟正黑體, Arial, sans-serif;
+}
+
+#login-modal {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  border-radius: 10px;
+  background-color: white;
+  margin: 5% auto;
+  width: 40%;
+  box-shadow: 0px 0px 15px #4f4f4f;
+}
+
+.signIn input {
+  background-color: #f0f0f0;
+  border: hidden;
+  margin: 5px;
+  height: 50px;
+  width: 400px;
+  padding: 0px;
+}
+
+.signIn svg {
+  background-color: #f0f0f0;
+  margin: 5px;
+  color: #5b5b5b;
+  padding: 10px;
+}
+
+#login-modal .signIn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-in {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-signin,
+.btn-signup {
+  height: 50px;
+  width: 460px;
+  border: hidden;
+  background-color: #ca8eff;
+  color: white;
+  font-size: 17px;
+  margin: 25px 5px;
+}
+
+.line {
+  background-color: rgb(0, 184, 79);
+  height: 50px;
+  width: 460px;
+  border: hidden;
+  color: white;
+  font-size: 17px;
+  margin: 25px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-in svg {
+  background-color: rgb(0, 184, 79);
+  margin-right: 10px;
+}
+
+h2 {
+  color: white;
+  background-color: #3c3c3c;
+  text-align: center;
+  padding: 20px 0px;
+  border-radius: 10px 10px 0 0;
+  margin-top: 0px;
+}
+
+.btn-end {
+  display: flex;
+  justify-content: end;
+}
+
+.btn-close {
+  background-color: transparent;
+  color: #8e8e8e;
+  border: hidden;
+  padding: 5px 10px;
+  font-size: 17px;
+}
+
+.btn-close:hover {
+  background-color: #3c3c3c;
+  color: white;
+}
+
+.morepass {
+  display: flex;
+  justify-content: space-between;
+  width: 460px;
+  margin: 10px 5px;
+}
+
+.passcenter {
+  display: flex;
+  justify-content: center;
+}
+
+.choose {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 25px;
+}
+
+.choose button {
+  width: 50%;
+  height: 60px;
+  border: none;
+  font-size: 20px;
+}
+
+.choose button:hover {
+  background-color: #4f4f4f;
+  color: white;
+}
+
+.btn1 {
+  border-radius: 10px 0 0 0;
+  background-color: #3c3c3c;
+  color: white;
+}
+
+.btn2 {
+  border-radius: 0 10px 0 0;
+  background-color: #3c3c3c;
+  color: white;
+}
+
+.changeView2 {
+  display: none;
+}
+
+.changeView {
+  display: block;
+}
+
+hr {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.p1,
+.p2,
+.p3 {
+  display: none;
+  text-align: center;
+  margin: 0;
+  color: red;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.btn-signin:hover,
+.btn-signup:hover {
+  background-color: #be77ff;
+}
